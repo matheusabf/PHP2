@@ -1,0 +1,22 @@
+<?php
+$d = 5000;
+//variavel unica que contem o salário
+function e($d){
+    //function para calculo do bonus de 20%
+    $t = ($d20)/100;//variavel unica de cada function do bonus
+    echo "O diretor recebe $t de bonus <br/>";
+}
+function h($s){
+    //function para calculo do bonus de 10%
+    $t = ($d10)/100;//variavel unica de cada function do bonus
+    echo "O funcionario recebe $t de bonus <br/>";
+}
+function g($s){
+    //function para calculo do bonus de 5%
+    $t = ($d*5)/100;//variavel unica de cada function do bonus
+    echo "O estagiario recebe $t de bonus";
+}
+e($d);
+h($d);
+g($d);
+?>
